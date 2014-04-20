@@ -7,19 +7,8 @@
 
 void PrintIntArray(int ar_size, int ar[]);
 
-bool isArraySorted(int ar_size, int ar[])
-{
-    int i;
-    for(i=1;i<ar_size;i++)
-    {
-        if(ar[i] > ar[i-1]) return false;
-    }
-
-    return true;
-}
-
-
-
+//Sort an array of integers of a given size and print the
+//array each time an element is moved
 void insertionSort(int ar_size, int *  ar)
 {
     int i;
@@ -41,6 +30,8 @@ void insertionSort(int ar_size, int *  ar)
     }
 }
 
+//Read input from the console. First integer is the number of elements in array
+//followed by reading the specified number of integers then sort the array of integers
 int main(void) {
 
     int _ar_size;
