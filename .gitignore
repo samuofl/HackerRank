@@ -188,7 +188,8 @@ $RECYCLE.BIN/
 
 *.depend  
 *.layout  
-
+bin/
+obj/
 
 #############
 ## Python
